@@ -1,0 +1,3933 @@
+<circuit>
+<CurrentPage>0</CurrentPage>
+<page 0>
+<PageViewport>-17235,11471,-17040.3,11372.7</PageViewport>
+<gate>
+<ID>193</ID>
+<type>GA_LED</type>
+<position>-17162,11694.5</position>
+<input>
+<ID>N_in0</ID>80 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>195</ID>
+<type>AA_TOGGLE</type>
+<position>-17184.5,11667</position>
+<output>
+<ID>OUT_0</ID>81 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>2</ID>
+<type>AA_LABEL</type>
+<position>-14074,9644</position>
+<gparam>LABEL_TEXT Text</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>197</ID>
+<type>AA_TOGGLE</type>
+<position>-17184,11656</position>
+<output>
+<ID>OUT_0</ID>82 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>4</ID>
+<type>AA_LABEL</type>
+<position>-13790.5,10174</position>
+<gparam>LABEL_TEXT Text</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>199</ID>
+<type>AA_LABEL</type>
+<position>-17183.5,11705.5</position>
+<gparam>LABEL_TEXT A</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>6</ID>
+<type>AA_LABEL</type>
+<position>-13786.5,10132</position>
+<gparam>LABEL_TEXT Text</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>201</ID>
+<type>AA_LABEL</type>
+<position>-17183.5,11700.5</position>
+<gparam>LABEL_TEXT B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>8</ID>
+<type>AA_LABEL</type>
+<position>-17210.5,11879.5</position>
+<gparam>LABEL_TEXT NAND gate as NOT gate</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>203</ID>
+<type>AA_LABEL</type>
+<position>-17191.5,11668.5</position>
+<gparam>LABEL_TEXT A</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>205</ID>
+<type>AA_LABEL</type>
+<position>-17191.5,11656.5</position>
+<gparam>LABEL_TEXT B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>16</ID>
+<type>BA_NAND2</type>
+<position>-17212,11873.5</position>
+<input>
+<ID>IN_0</ID>3 </input>
+<input>
+<ID>IN_1</ID>3 </input>
+<output>
+<ID>OUT</ID>4 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>211</ID>
+<type>AE_SMALL_INVERTER</type>
+<position>-17178.5,11668.5</position>
+<input>
+<ID>IN_0</ID>81 </input>
+<output>
+<ID>OUT_0</ID>86 </output>
+<gparam>angle 0.0</gparam>
+<lparam>DEFAULT_DELAY 1</lparam>
+<lparam>INPUT_BITS 1</lparam></gate>
+<gate>
+<ID>18</ID>
+<type>AA_TOGGLE</type>
+<position>-17220.5,11873.5</position>
+<output>
+<ID>OUT_0</ID>3 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>213</ID>
+<type>AE_SMALL_INVERTER</type>
+<position>-17178.5,11654</position>
+<input>
+<ID>IN_0</ID>82 </input>
+<output>
+<ID>OUT_0</ID>84 </output>
+<gparam>angle 0.0</gparam>
+<lparam>DEFAULT_DELAY 1</lparam>
+<lparam>INPUT_BITS 1</lparam></gate>
+<gate>
+<ID>20</ID>
+<type>GA_LED</type>
+<position>-17204.5,11873.5</position>
+<input>
+<ID>N_in0</ID>4 </input>
+<input>
+<ID>N_in2</ID>4 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>22</ID>
+<type>AA_TOGGLE</type>
+<position>-17223,11860</position>
+<output>
+<ID>OUT_0</ID>6 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>217</ID>
+<type>AA_AND2</type>
+<position>-17167.5,11656.5</position>
+<input>
+<ID>IN_0</ID>81 </input>
+<input>
+<ID>IN_1</ID>84 </input>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>24</ID>
+<type>AA_TOGGLE</type>
+<position>-17223,11857</position>
+<output>
+<ID>OUT_0</ID>5 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>219</ID>
+<type>AE_OR2</type>
+<position>-17147,11661.5</position>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>26</ID>
+<type>AA_LABEL</type>
+<position>-17213,11864.5</position>
+<gparam>LABEL_TEXT AND</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>221</ID>
+<type>GA_LED</type>
+<position>-17136,11661</position>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>28</ID>
+<type>BA_NAND2</type>
+<position>-17216.5,11858.5</position>
+<input>
+<ID>IN_0</ID>6 </input>
+<input>
+<ID>IN_1</ID>5 </input>
+<output>
+<ID>OUT</ID>7 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>223</ID>
+<type>AA_AND2</type>
+<position>-17157.5,11662</position>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>30</ID>
+<type>BA_NAND2</type>
+<position>-17207.5,11858.5</position>
+<input>
+<ID>IN_0</ID>7 </input>
+<input>
+<ID>IN_1</ID>7 </input>
+<output>
+<ID>OUT</ID>8 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>32</ID>
+<type>GA_LED</type>
+<position>-17202.5,11858.5</position>
+<input>
+<ID>N_in0</ID>8 </input>
+<input>
+<ID>N_in1</ID>8 </input>
+<input>
+<ID>N_in3</ID>8 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>34</ID>
+<type>AA_TOGGLE</type>
+<position>-17223,11843</position>
+<output>
+<ID>OUT_0</ID>9 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>229</ID>
+<type>AA_AND2</type>
+<position>-17167.5,11666</position>
+<input>
+<ID>IN_0</ID>86 </input>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>36</ID>
+<type>AA_TOGGLE</type>
+<position>-17223,11836.5</position>
+<output>
+<ID>OUT_0</ID>10 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>38</ID>
+<type>BA_NAND2</type>
+<position>-17216,11843</position>
+<input>
+<ID>IN_0</ID>9 </input>
+<input>
+<ID>IN_1</ID>9 </input>
+<output>
+<ID>OUT</ID>11 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>233</ID>
+<type>AA_LABEL</type>
+<position>-17160,11643</position>
+<gparam>LABEL_TEXT NOR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>40</ID>
+<type>BA_NAND2</type>
+<position>-17216,11836.5</position>
+<input>
+<ID>IN_0</ID>10 </input>
+<input>
+<ID>IN_1</ID>10 </input>
+<output>
+<ID>OUT</ID>12 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>235</ID>
+<type>AA_LABEL</type>
+<position>-17159,11581</position>
+<gparam>LABEL_TEXT HALF Subtractor</gparam>
+<gparam>TEXT_HEIGHT 3</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>42</ID>
+<type>BA_NAND2</type>
+<position>-17207,11840</position>
+<input>
+<ID>IN_0</ID>11 </input>
+<input>
+<ID>IN_1</ID>12 </input>
+<output>
+<ID>OUT</ID>13 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>237</ID>
+<type>AA_TOGGLE</type>
+<position>-17193.5,11631</position>
+<output>
+<ID>OUT_0</ID>98 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>44</ID>
+<type>AA_LABEL</type>
+<position>-17213.5,11849.5</position>
+<gparam>LABEL_TEXT OR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>239</ID>
+<type>AA_TOGGLE</type>
+<position>-17175,11631</position>
+<output>
+<ID>OUT_0</ID>96 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>46</ID>
+<type>GA_LED</type>
+<position>-17202,11840</position>
+<input>
+<ID>N_in0</ID>13 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>241</ID>
+<type>BE_NOR2</type>
+<position>-17187.5,11624</position>
+<input>
+<ID>IN_0</ID>98 </input>
+<input>
+<ID>IN_1</ID>98 </input>
+<output>
+<ID>OUT</ID>95 </output>
+<gparam>angle 270</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>48</ID>
+<type>AA_LABEL</type>
+<position>-17213.5,11828.5</position>
+<gparam>LABEL_TEXT NOR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>245</ID>
+<type>BE_NOR2</type>
+<position>-17167.5,11624</position>
+<input>
+<ID>IN_0</ID>96 </input>
+<input>
+<ID>IN_1</ID>96 </input>
+<output>
+<ID>OUT</ID>97 </output>
+<gparam>angle 270</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>247</ID>
+<type>BE_NOR2</type>
+<position>-17158,11615.5</position>
+<input>
+<ID>IN_0</ID>95 </input>
+<input>
+<ID>IN_1</ID>96 </input>
+<output>
+<ID>OUT</ID>89 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>57</ID>
+<type>AA_TOGGLE</type>
+<position>-17226,11822</position>
+<output>
+<ID>OUT_0</ID>19 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>251</ID>
+<type>BE_NOR2</type>
+<position>-17157.5,11597.5</position>
+<input>
+<ID>IN_0</ID>95 </input>
+<input>
+<ID>IN_1</ID>98 </input>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>58</ID>
+<type>AA_TOGGLE</type>
+<position>-17226,11815.5</position>
+<output>
+<ID>OUT_0</ID>20 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>59</ID>
+<type>BA_NAND2</type>
+<position>-17219,11822</position>
+<input>
+<ID>IN_0</ID>19 </input>
+<input>
+<ID>IN_1</ID>19 </input>
+<output>
+<ID>OUT</ID>21 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>60</ID>
+<type>BA_NAND2</type>
+<position>-17219,11815.5</position>
+<input>
+<ID>IN_0</ID>20 </input>
+<input>
+<ID>IN_1</ID>20 </input>
+<output>
+<ID>OUT</ID>22 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>61</ID>
+<type>BA_NAND2</type>
+<position>-17210,11819</position>
+<input>
+<ID>IN_0</ID>21 </input>
+<input>
+<ID>IN_1</ID>22 </input>
+<output>
+<ID>OUT</ID>24 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>255</ID>
+<type>BE_NOR2</type>
+<position>-17138.5,11610.5</position>
+<input>
+<ID>IN_0</ID>88 </input>
+<input>
+<ID>IN_1</ID>88 </input>
+<output>
+<ID>OUT</ID>99 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>63</ID>
+<type>BA_NAND2</type>
+<position>-17201.5,11819</position>
+<input>
+<ID>IN_0</ID>24 </input>
+<input>
+<ID>IN_1</ID>24 </input>
+<output>
+<ID>OUT</ID>25 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>257</ID>
+<type>GA_LED</type>
+<position>-17131.5,11610.5</position>
+<input>
+<ID>N_in0</ID>99 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>65</ID>
+<type>GA_LED</type>
+<position>-17196,11819</position>
+<input>
+<ID>N_in0</ID>25 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>259</ID>
+<type>BE_NOR2</type>
+<position>-17158,11606.5</position>
+<input>
+<ID>IN_0</ID>98 </input>
+<input>
+<ID>IN_1</ID>97 </input>
+<output>
+<ID>OUT</ID>90 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>67</ID>
+<type>AA_LABEL</type>
+<position>-17144.5,11879.5</position>
+<gparam>LABEL_TEXT XOR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>69</ID>
+<type>AA_LABEL</type>
+<position>-17143,11846.5</position>
+<gparam>LABEL_TEXT XNOR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>263</ID>
+<type>BE_NOR2</type>
+<position>-17149,11610.5</position>
+<input>
+<ID>IN_0</ID>89 </input>
+<input>
+<ID>IN_1</ID>90 </input>
+<output>
+<ID>OUT</ID>88 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>71</ID>
+<type>BA_NAND2</type>
+<position>-17144,11873</position>
+<input>
+<ID>IN_0</ID>26 </input>
+<input>
+<ID>IN_1</ID>28 </input>
+<output>
+<ID>OUT</ID>29 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>72</ID>
+<type>BA_NAND2</type>
+<position>-17144,11865.5</position>
+<input>
+<ID>IN_0</ID>28 </input>
+<input>
+<ID>IN_1</ID>27 </input>
+<output>
+<ID>OUT</ID>30 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>73</ID>
+<type>BA_NAND2</type>
+<position>-17152,11869.5</position>
+<input>
+<ID>IN_0</ID>26 </input>
+<input>
+<ID>IN_1</ID>27 </input>
+<output>
+<ID>OUT</ID>28 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>75</ID>
+<type>AA_TOGGLE</type>
+<position>-17161.5,11874</position>
+<output>
+<ID>OUT_0</ID>26 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>77</ID>
+<type>AA_TOGGLE</type>
+<position>-17161.5,11864.5</position>
+<output>
+<ID>OUT_0</ID>27 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>78</ID>
+<type>BA_NAND2</type>
+<position>-17135.5,11869.5</position>
+<input>
+<ID>IN_0</ID>29 </input>
+<input>
+<ID>IN_1</ID>30 </input>
+<output>
+<ID>OUT</ID>31 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>80</ID>
+<type>GA_LED</type>
+<position>-17130,11869.5</position>
+<input>
+<ID>N_in0</ID>31 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>81</ID>
+<type>BA_NAND2</type>
+<position>-17145.5,11839</position>
+<input>
+<ID>IN_0</ID>32 </input>
+<input>
+<ID>IN_1</ID>34 </input>
+<output>
+<ID>OUT</ID>35 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>82</ID>
+<type>BA_NAND2</type>
+<position>-17145.5,11831.5</position>
+<input>
+<ID>IN_0</ID>34 </input>
+<input>
+<ID>IN_1</ID>33 </input>
+<output>
+<ID>OUT</ID>36 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>83</ID>
+<type>BA_NAND2</type>
+<position>-17153.5,11835.5</position>
+<input>
+<ID>IN_0</ID>32 </input>
+<input>
+<ID>IN_1</ID>33 </input>
+<output>
+<ID>OUT</ID>34 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>84</ID>
+<type>AA_TOGGLE</type>
+<position>-17163.5,11840</position>
+<output>
+<ID>OUT_0</ID>32 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>85</ID>
+<type>AA_TOGGLE</type>
+<position>-17163.5,11830.5</position>
+<output>
+<ID>OUT_0</ID>33 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>86</ID>
+<type>BA_NAND2</type>
+<position>-17137,11835</position>
+<input>
+<ID>IN_0</ID>35 </input>
+<input>
+<ID>IN_1</ID>36 </input>
+<output>
+<ID>OUT</ID>38 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>89</ID>
+<type>BA_NAND2</type>
+<position>-17129.5,11835</position>
+<input>
+<ID>IN_0</ID>38 </input>
+<input>
+<ID>IN_1</ID>38 </input>
+<output>
+<ID>OUT</ID>40 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>93</ID>
+<type>GA_LED</type>
+<position>-17124,11835</position>
+<input>
+<ID>N_in0</ID>40 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>95</ID>
+<type>GA_LED</type>
+<position>-17207.5,11787</position>
+<input>
+<ID>N_in0</ID>42 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>290</ID>
+<type>GA_LED</type>
+<position>-17157,11559.5</position>
+<input>
+<ID>N_in0</ID>120 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>97</ID>
+<type>AA_LABEL</type>
+<position>-17169.5,11805</position>
+<gparam>LABEL_TEXT NOR gate as Universal gate</gparam>
+<gparam>TEXT_HEIGHT 3</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>291</ID>
+<type>AA_LABEL</type>
+<position>-17185.5,11570.5</position>
+<gparam>LABEL_TEXT A</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>292</ID>
+<type>AA_LABEL</type>
+<position>-17185.5,11565.5</position>
+<gparam>LABEL_TEXT B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>99</ID>
+<type>BE_NOR2</type>
+<position>-17214,11787</position>
+<input>
+<ID>IN_0</ID>41 </input>
+<input>
+<ID>IN_1</ID>41 </input>
+<output>
+<ID>OUT</ID>42 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>293</ID>
+<type>AO_XNOR2</type>
+<position>-17171.5,11567.5</position>
+<input>
+<ID>IN_0</ID>122 </input>
+<input>
+<ID>IN_1</ID>117 </input>
+<output>
+<ID>OUT</ID>118 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>294</ID>
+<type>AA_TOGGLE</type>
+<position>-17182,11570</position>
+<output>
+<ID>OUT_0</ID>122 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>101</ID>
+<type>BE_NOR2</type>
+<position>-17218,11771.5</position>
+<input>
+<ID>IN_0</ID>43 </input>
+<input>
+<ID>IN_1</ID>44 </input>
+<output>
+<ID>OUT</ID>45 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>295</ID>
+<type>AA_TOGGLE</type>
+<position>-17182,11565</position>
+<output>
+<ID>OUT_0</ID>117 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>296</ID>
+<type>GA_LED</type>
+<position>-17157.5,11567.5</position>
+<input>
+<ID>N_in0</ID>118 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>103</ID>
+<type>AA_LABEL</type>
+<position>-17214,11793.5</position>
+<gparam>LABEL_TEXT NOT</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>297</ID>
+<type>AA_LABEL</type>
+<position>-17142,11568</position>
+<gparam>LABEL_TEXT D= AB + AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>298</ID>
+<type>AA_LABEL</type>
+<position>-17144.5,11571</position>
+<gparam>LABEL_TEXT _</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>105</ID>
+<type>AA_LABEL</type>
+<position>-17214.5,11777.5</position>
+<gparam>LABEL_TEXT OR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>299</ID>
+<type>AA_LABEL</type>
+<position>-17134.5,11571</position>
+<gparam>LABEL_TEXT _</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>300</ID>
+<type>AA_LABEL</type>
+<position>-17145.5,11559.5</position>
+<gparam>LABEL_TEXT B= AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>107</ID>
+<type>AA_LABEL</type>
+<position>-17214,11762.5</position>
+<gparam>LABEL_TEXT AND</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>301</ID>
+<type>AA_AND2</type>
+<position>-17165.5,11559.5</position>
+<input>
+<ID>IN_0</ID>121 </input>
+<input>
+<ID>IN_1</ID>117 </input>
+<output>
+<ID>OUT</ID>120 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>109</ID>
+<type>AA_LABEL</type>
+<position>-17138.5,11793</position>
+<gparam>LABEL_TEXT XOR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>303</ID>
+<type>AE_SMALL_INVERTER</type>
+<position>-17171.5,11560.5</position>
+<input>
+<ID>IN_0</ID>122 </input>
+<output>
+<ID>OUT_0</ID>121 </output>
+<gparam>angle 0.0</gparam>
+<lparam>DEFAULT_DELAY 1</lparam>
+<lparam>INPUT_BITS 1</lparam></gate>
+<gate>
+<ID>111</ID>
+<type>AA_LABEL</type>
+<position>-17138,11759</position>
+<gparam>LABEL_TEXT XNOR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>305</ID>
+<type>AA_LABEL</type>
+<position>-17144,11562.5</position>
+<gparam>LABEL_TEXT _</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>113</ID>
+<type>AA_TOGGLE</type>
+<position>-17222.5,11787</position>
+<output>
+<ID>OUT_0</ID>41 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>307</ID>
+<type>AA_LABEL</type>
+<position>-17161,11548</position>
+<gparam>LABEL_TEXT AOI</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>309</ID>
+<type>AA_LABEL</type>
+<position>-17158.5,11499</position>
+<gparam>LABEL_TEXT NOR</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>117</ID>
+<type>BE_NOR2</type>
+<position>-17209.5,11771.5</position>
+<input>
+<ID>IN_0</ID>45 </input>
+<input>
+<ID>IN_1</ID>45 </input>
+<output>
+<ID>OUT</ID>46 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>311</ID>
+<type>AA_TOGGLE</type>
+<position>-17192,11539</position>
+<output>
+<ID>OUT_0</ID>125 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>119</ID>
+<type>AA_TOGGLE</type>
+<position>-17225,11773</position>
+<output>
+<ID>OUT_0</ID>43 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>313</ID>
+<type>AA_TOGGLE</type>
+<position>-17178,11539</position>
+<output>
+<ID>OUT_0</ID>126 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>121</ID>
+<type>AA_TOGGLE</type>
+<position>-17225,11770</position>
+<output>
+<ID>OUT_0</ID>44 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>315</ID>
+<type>AE_SMALL_INVERTER</type>
+<position>-17188.5,11534</position>
+<input>
+<ID>IN_0</ID>125 </input>
+<output>
+<ID>OUT_0</ID>128 </output>
+<gparam>angle 270</gparam>
+<lparam>DEFAULT_DELAY 1</lparam>
+<lparam>INPUT_BITS 1</lparam></gate>
+<gate>
+<ID>123</ID>
+<type>GA_LED</type>
+<position>-17204,11771.5</position>
+<input>
+<ID>N_in0</ID>46 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>317</ID>
+<type>AE_SMALL_INVERTER</type>
+<position>-17174.5,11534</position>
+<input>
+<ID>IN_0</ID>126 </input>
+<output>
+<ID>OUT_0</ID>127 </output>
+<gparam>angle 270</gparam>
+<lparam>DEFAULT_DELAY 1</lparam>
+<lparam>INPUT_BITS 1</lparam></gate>
+<gate>
+<ID>125</ID>
+<type>BE_NOR2</type>
+<position>-17217.5,11755.5</position>
+<input>
+<ID>IN_0</ID>47 </input>
+<input>
+<ID>IN_1</ID>47 </input>
+<output>
+<ID>OUT</ID>49 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>319</ID>
+<type>AA_AND2</type>
+<position>-17161.5,11527.5</position>
+<input>
+<ID>IN_0</ID>128 </input>
+<input>
+<ID>IN_1</ID>126 </input>
+<output>
+<ID>OUT</ID>129 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>127</ID>
+<type>BE_NOR2</type>
+<position>-17217.5,11748.5</position>
+<input>
+<ID>IN_0</ID>48 </input>
+<input>
+<ID>IN_1</ID>48 </input>
+<output>
+<ID>OUT</ID>50 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>321</ID>
+<type>AA_AND2</type>
+<position>-17161.5,11520.5</position>
+<input>
+<ID>IN_0</ID>125 </input>
+<input>
+<ID>IN_1</ID>127 </input>
+<output>
+<ID>OUT</ID>130 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>129</ID>
+<type>BE_NOR2</type>
+<position>-17208,11751.5</position>
+<input>
+<ID>IN_0</ID>49 </input>
+<input>
+<ID>IN_1</ID>50 </input>
+<output>
+<ID>OUT</ID>51 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>323</ID>
+<type>AA_AND2</type>
+<position>-17161,11512.5</position>
+<input>
+<ID>IN_0</ID>126 </input>
+<input>
+<ID>IN_1</ID>125 </input>
+<output>
+<ID>OUT</ID>132 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>131</ID>
+<type>GA_LED</type>
+<position>-17202,11751.5</position>
+<input>
+<ID>N_in0</ID>51 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>325</ID>
+<type>AE_OR2</type>
+<position>-17151,11524</position>
+<input>
+<ID>IN_0</ID>129 </input>
+<input>
+<ID>IN_1</ID>130 </input>
+<output>
+<ID>OUT</ID>131 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>133</ID>
+<type>AA_TOGGLE</type>
+<position>-17225,11755.5</position>
+<output>
+<ID>OUT_0</ID>47 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>327</ID>
+<type>GA_LED</type>
+<position>-17145,11524</position>
+<input>
+<ID>N_in0</ID>131 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>135</ID>
+<type>AA_TOGGLE</type>
+<position>-17225,11748.5</position>
+<output>
+<ID>OUT_0</ID>48 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>329</ID>
+<type>GA_LED</type>
+<position>-17154.5,11512.5</position>
+<input>
+<ID>N_in0</ID>132 </input>
+<input>
+<ID>N_in2</ID>132 </input>
+<input>
+<ID>N_in3</ID>132 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>136</ID>
+<type>BE_NOR2</type>
+<position>-17222.5,11734.5</position>
+<input>
+<ID>IN_0</ID>52 </input>
+<input>
+<ID>IN_1</ID>52 </input>
+<output>
+<ID>OUT</ID>54 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>137</ID>
+<type>BE_NOR2</type>
+<position>-17222.5,11727.5</position>
+<input>
+<ID>IN_0</ID>53 </input>
+<input>
+<ID>IN_1</ID>53 </input>
+<output>
+<ID>OUT</ID>55 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>331</ID>
+<type>AA_TOGGLE</type>
+<position>-17174,11420</position>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>138</ID>
+<type>BE_NOR2</type>
+<position>-17213,11730.5</position>
+<input>
+<ID>IN_0</ID>54 </input>
+<input>
+<ID>IN_1</ID>55 </input>
+<output>
+<ID>OUT</ID>57 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>332</ID>
+<type>AA_TOGGLE</type>
+<position>-17190,11487.5</position>
+<output>
+<ID>OUT_0</ID>141 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>333</ID>
+<type>AA_TOGGLE</type>
+<position>-17171,11487.5</position>
+<output>
+<ID>OUT_0</ID>142 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>140</ID>
+<type>AA_TOGGLE</type>
+<position>-17230,11734.5</position>
+<output>
+<ID>OUT_0</ID>52 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>334</ID>
+<type>BE_NOR2</type>
+<position>-17184,11480.5</position>
+<input>
+<ID>IN_0</ID>141 </input>
+<input>
+<ID>IN_1</ID>141 </input>
+<output>
+<ID>OUT</ID>144 </output>
+<gparam>angle 270</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>141</ID>
+<type>AA_TOGGLE</type>
+<position>-17230,11727.5</position>
+<output>
+<ID>OUT_0</ID>53 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>335</ID>
+<type>BE_NOR2</type>
+<position>-17164,11480.5</position>
+<input>
+<ID>IN_0</ID>142 </input>
+<input>
+<ID>IN_1</ID>142 </input>
+<output>
+<ID>OUT</ID>143 </output>
+<gparam>angle 270</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>336</ID>
+<type>BE_NOR2</type>
+<position>-17154.5,11472</position>
+<input>
+<ID>IN_0</ID>141 </input>
+<input>
+<ID>IN_1</ID>143 </input>
+<output>
+<ID>OUT</ID>134 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>143</ID>
+<type>BE_NOR2</type>
+<position>-17204.5,11730.5</position>
+<input>
+<ID>IN_0</ID>57 </input>
+<input>
+<ID>IN_1</ID>57 </input>
+<output>
+<ID>OUT</ID>58 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>337</ID>
+<type>BE_NOR2</type>
+<position>-17154,11454</position>
+<input>
+<ID>IN_0</ID>144 </input>
+<input>
+<ID>IN_1</ID>142 </input>
+<output>
+<ID>OUT</ID>145 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>338</ID>
+<type>BE_NOR2</type>
+<position>-17135,11467</position>
+<input>
+<ID>IN_0</ID>133 </input>
+<input>
+<ID>IN_1</ID>133 </input>
+<output>
+<ID>OUT</ID>140 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>145</ID>
+<type>GA_LED</type>
+<position>-17199,11730.5</position>
+<input>
+<ID>N_in0</ID>58 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>339</ID>
+<type>GA_LED</type>
+<position>-17128,11467</position>
+<input>
+<ID>N_in0</ID>140 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>340</ID>
+<type>BE_NOR2</type>
+<position>-17154.5,11463</position>
+<input>
+<ID>IN_0</ID>144 </input>
+<input>
+<ID>IN_1</ID>142 </input>
+<output>
+<ID>OUT</ID>135 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>147</ID>
+<type>AA_LABEL</type>
+<position>-17214.5,11740</position>
+<gparam>LABEL_TEXT NAND</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>341</ID>
+<type>BE_NOR2</type>
+<position>-17145.5,11467</position>
+<input>
+<ID>IN_0</ID>134 </input>
+<input>
+<ID>IN_1</ID>135 </input>
+<output>
+<ID>OUT</ID>133 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>148</ID>
+<type>BA_NAND2</type>
+<position>-17135.5,11785</position>
+<input>
+<ID>IN_0</ID>59 </input>
+<input>
+<ID>IN_1</ID>61 </input>
+<output>
+<ID>OUT</ID>62 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>342</ID>
+<type>AA_LABEL</type>
+<position>-17132.5,11524.5</position>
+<gparam>LABEL_TEXT D= AB + AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>149</ID>
+<type>BA_NAND2</type>
+<position>-17135.5,11777.5</position>
+<input>
+<ID>IN_0</ID>61 </input>
+<input>
+<ID>IN_1</ID>60 </input>
+<output>
+<ID>OUT</ID>63 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>343</ID>
+<type>AA_LABEL</type>
+<position>-17145.5,11513</position>
+<gparam>LABEL_TEXT B= AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>150</ID>
+<type>BA_NAND2</type>
+<position>-17143.5,11781.5</position>
+<input>
+<ID>IN_0</ID>59 </input>
+<input>
+<ID>IN_1</ID>60 </input>
+<output>
+<ID>OUT</ID>61 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>344</ID>
+<type>AA_LABEL</type>
+<position>-17142,11516</position>
+<gparam>LABEL_TEXT _</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>151</ID>
+<type>AA_TOGGLE</type>
+<position>-17153,11786</position>
+<output>
+<ID>OUT_0</ID>59 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>345</ID>
+<type>AA_LABEL</type>
+<position>-17116,11467.5</position>
+<gparam>LABEL_TEXT D= AB + AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>152</ID>
+<type>AA_TOGGLE</type>
+<position>-17153,11776.5</position>
+<output>
+<ID>OUT_0</ID>60 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>346</ID>
+<type>AA_LABEL</type>
+<position>-17131.5,11455</position>
+<gparam>LABEL_TEXT B= AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>153</ID>
+<type>BA_NAND2</type>
+<position>-17127,11781.5</position>
+<input>
+<ID>IN_0</ID>62 </input>
+<input>
+<ID>IN_1</ID>63 </input>
+<output>
+<ID>OUT</ID>64 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>347</ID>
+<type>AA_LABEL</type>
+<position>-17118.5,11462</position>
+<gparam>LABEL_TEXT _</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>154</ID>
+<type>GA_LED</type>
+<position>-17121.5,11781.5</position>
+<input>
+<ID>N_in0</ID>64 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>349</ID>
+<type>GA_LED</type>
+<position>-17146.5,11454.5</position>
+<input>
+<ID>N_in0</ID>145 </input>
+<input>
+<ID>N_in1</ID>145 </input>
+<input>
+<ID>N_in3</ID>145 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>351</ID>
+<type>AA_LABEL</type>
+<position>-17142,11435.5</position>
+<gparam>LABEL_TEXT FULL ADDER</gparam>
+<gparam>TEXT_HEIGHT 3</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>158</ID>
+<type>AA_TOGGLE</type>
+<position>-17157.5,11752.5</position>
+<output>
+<ID>OUT_0</ID>71 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>159</ID>
+<type>AA_TOGGLE</type>
+<position>-17157.5,11743</position>
+<output>
+<ID>OUT_0</ID>72 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>353</ID>
+<type>AA_TOGGLE</type>
+<position>-17174,11414</position>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>161</ID>
+<type>GA_LED</type>
+<position>-17126,11748</position>
+<input>
+<ID>N_in0</ID>76 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>355</ID>
+<type>AA_TOGGLE</type>
+<position>-17174,11408</position>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>163</ID>
+<type>BE_NOR2</type>
+<position>-17149,11748</position>
+<input>
+<ID>IN_0</ID>71 </input>
+<input>
+<ID>IN_1</ID>72 </input>
+<output>
+<ID>OUT</ID>73 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>165</ID>
+<type>BE_NOR2</type>
+<position>-17140,11751.5</position>
+<input>
+<ID>IN_0</ID>71 </input>
+<input>
+<ID>IN_1</ID>73 </input>
+<output>
+<ID>OUT</ID>74 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>167</ID>
+<type>BE_NOR2</type>
+<position>-17139.5,11744</position>
+<input>
+<ID>IN_0</ID>73 </input>
+<input>
+<ID>IN_1</ID>72 </input>
+<output>
+<ID>OUT</ID>75 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>169</ID>
+<type>BE_NOR2</type>
+<position>-17132.5,11748</position>
+<input>
+<ID>IN_0</ID>74 </input>
+<input>
+<ID>IN_1</ID>75 </input>
+<output>
+<ID>OUT</ID>76 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>171</ID>
+<type>AA_LABEL</type>
+<position>-17164.5,11715.5</position>
+<gparam>LABEL_TEXT HALF ADDER</gparam>
+<gparam>TEXT_HEIGHT 3</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>173</ID>
+<type>AA_LABEL</type>
+<position>-17161.5,11682.5</position>
+<gparam>LABEL_TEXT AOI Implementation : </gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>175</ID>
+<type>AO_XNOR2</type>
+<position>-17169.5,11702.5</position>
+<input>
+<ID>IN_0</ID>77 </input>
+<input>
+<ID>IN_1</ID>78 </input>
+<output>
+<ID>OUT</ID>79 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>177</ID>
+<type>AA_TOGGLE</type>
+<position>-17180,11705</position>
+<output>
+<ID>OUT_0</ID>77 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>179</ID>
+<type>AA_TOGGLE</type>
+<position>-17180,11700</position>
+<output>
+<ID>OUT_0</ID>78 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 1</lparam></gate>
+<gate>
+<ID>181</ID>
+<type>GA_LED</type>
+<position>-17162.5,11702.5</position>
+<input>
+<ID>N_in0</ID>79 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>183</ID>
+<type>AA_LABEL</type>
+<position>-17148,11703</position>
+<gparam>LABEL_TEXT Sum = AB + AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>185</ID>
+<type>AA_LABEL</type>
+<position>-17147.5,11706</position>
+<gparam>LABEL_TEXT _</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>187</ID>
+<type>AA_LABEL</type>
+<position>-17137.5,11706</position>
+<gparam>LABEL_TEXT _</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>189</ID>
+<type>AA_LABEL</type>
+<position>-17150,11695</position>
+<gparam>LABEL_TEXT Carry = AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>191</ID>
+<type>AA_AND2</type>
+<position>-17169.5,11694.5</position>
+<input>
+<ID>IN_0</ID>77 </input>
+<input>
+<ID>IN_1</ID>78 </input>
+<output>
+<ID>OUT</ID>80 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<wire>
+<ID>3</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17218.5,11873.5,-17216.5,11873.5</points>
+<connection>
+<GID>18</GID>
+<name>OUT_0</name></connection>
+<intersection>-17216.5 5</intersection></hsegment>
+<vsegment>
+<ID>5</ID>
+<points>-17216.5,11872.5,-17216.5,11874.5</points>
+<intersection>11872.5 8</intersection>
+<intersection>11873.5 1</intersection>
+<intersection>11874.5 7</intersection></vsegment>
+<hsegment>
+<ID>7</ID>
+<points>-17216.5,11874.5,-17215,11874.5</points>
+<connection>
+<GID>16</GID>
+<name>IN_0</name></connection>
+<intersection>-17216.5 5</intersection></hsegment>
+<hsegment>
+<ID>8</ID>
+<points>-17216.5,11872.5,-17215,11872.5</points>
+<connection>
+<GID>16</GID>
+<name>IN_1</name></connection>
+<intersection>-17216.5 5</intersection></hsegment></shape></wire>
+<wire>
+<ID>4</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17204.5,11872.5,-17204.5,11873.5</points>
+<connection>
+<GID>20</GID>
+<name>N_in2</name></connection>
+<intersection>11873.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17209,11873.5,-17204.5,11873.5</points>
+<connection>
+<GID>16</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>20</GID>
+<name>N_in0</name></connection>
+<intersection>-17204.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>5</ID>
+<shape>
+<vsegment>
+<ID>5</ID>
+<points>-17219.5,11857,-17219.5,11857.5</points>
+<connection>
+<GID>28</GID>
+<name>IN_1</name></connection>
+<intersection>11857 6</intersection></vsegment>
+<hsegment>
+<ID>6</ID>
+<points>-17221,11857,-17219.5,11857</points>
+<connection>
+<GID>24</GID>
+<name>OUT_0</name></connection>
+<intersection>-17219.5 5</intersection></hsegment></shape></wire>
+<wire>
+<ID>6</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17221,11860,-17219.5,11860</points>
+<connection>
+<GID>22</GID>
+<name>OUT_0</name></connection>
+<intersection>-17219.5 3</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>-17219.5,11859.5,-17219.5,11860</points>
+<connection>
+<GID>28</GID>
+<name>IN_0</name></connection>
+<intersection>11860 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>7</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17212,11857.5,-17212,11859.5</points>
+<intersection>11857.5 3</intersection>
+<intersection>11858.5 2</intersection>
+<intersection>11859.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17212,11859.5,-17210.5,11859.5</points>
+<connection>
+<GID>30</GID>
+<name>IN_0</name></connection>
+<intersection>-17212 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17213.5,11858.5,-17212,11858.5</points>
+<connection>
+<GID>28</GID>
+<name>OUT</name></connection>
+<intersection>-17212 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17212,11857.5,-17210.5,11857.5</points>
+<connection>
+<GID>30</GID>
+<name>IN_1</name></connection>
+<intersection>-17212 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>8</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17204.5,11858.5,-17201.5,11858.5</points>
+<connection>
+<GID>32</GID>
+<name>N_in1</name></connection>
+<connection>
+<GID>32</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>30</GID>
+<name>OUT</name></connection>
+<intersection>-17201.5 2</intersection></hsegment>
+<vsegment>
+<ID>2</ID>
+<points>-17201.5,11858.5,-17201.5,11859.5</points>
+<intersection>11858.5 1</intersection>
+<intersection>11859.5 3</intersection></vsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17202.5,11859.5,-17201.5,11859.5</points>
+<connection>
+<GID>32</GID>
+<name>N_in3</name></connection>
+<intersection>-17201.5 2</intersection></hsegment></shape></wire>
+<wire>
+<ID>9</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17220,11842,-17220,11844</points>
+<intersection>11842 4</intersection>
+<intersection>11843 2</intersection>
+<intersection>11844 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17220,11844,-17219,11844</points>
+<connection>
+<GID>38</GID>
+<name>IN_0</name></connection>
+<intersection>-17220 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17221,11843,-17220,11843</points>
+<connection>
+<GID>34</GID>
+<name>OUT_0</name></connection>
+<intersection>-17220 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17220,11842,-17219,11842</points>
+<connection>
+<GID>38</GID>
+<name>IN_1</name></connection>
+<intersection>-17220 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>10</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17220,11835.5,-17220,11837.5</points>
+<intersection>11835.5 3</intersection>
+<intersection>11836.5 2</intersection>
+<intersection>11837.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17220,11837.5,-17219,11837.5</points>
+<connection>
+<GID>40</GID>
+<name>IN_0</name></connection>
+<intersection>-17220 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17221,11836.5,-17220,11836.5</points>
+<connection>
+<GID>36</GID>
+<name>OUT_0</name></connection>
+<intersection>-17220 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17220,11835.5,-17219,11835.5</points>
+<connection>
+<GID>40</GID>
+<name>IN_1</name></connection>
+<intersection>-17220 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>11</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17211.5,11841,-17211.5,11843</points>
+<intersection>11841 1</intersection>
+<intersection>11843 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17211.5,11841,-17210,11841</points>
+<connection>
+<GID>42</GID>
+<name>IN_0</name></connection>
+<intersection>-17211.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17213,11843,-17211.5,11843</points>
+<connection>
+<GID>38</GID>
+<name>OUT</name></connection>
+<intersection>-17211.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>12</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17211.5,11836.5,-17211.5,11839</points>
+<intersection>11836.5 2</intersection>
+<intersection>11839 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17211.5,11839,-17210,11839</points>
+<connection>
+<GID>42</GID>
+<name>IN_1</name></connection>
+<intersection>-17211.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17213,11836.5,-17211.5,11836.5</points>
+<connection>
+<GID>40</GID>
+<name>OUT</name></connection>
+<intersection>-17211.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>13</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17204,11840,-17203,11840</points>
+<connection>
+<GID>46</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>42</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>19</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17223,11821,-17223,11823</points>
+<intersection>11821 4</intersection>
+<intersection>11822 2</intersection>
+<intersection>11823 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17223,11823,-17222,11823</points>
+<connection>
+<GID>59</GID>
+<name>IN_0</name></connection>
+<intersection>-17223 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17224,11822,-17223,11822</points>
+<connection>
+<GID>57</GID>
+<name>OUT_0</name></connection>
+<intersection>-17223 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17223,11821,-17222,11821</points>
+<connection>
+<GID>59</GID>
+<name>IN_1</name></connection>
+<intersection>-17223 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>20</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17223,11814.5,-17223,11816.5</points>
+<intersection>11814.5 3</intersection>
+<intersection>11815.5 2</intersection>
+<intersection>11816.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17223,11816.5,-17222,11816.5</points>
+<connection>
+<GID>60</GID>
+<name>IN_0</name></connection>
+<intersection>-17223 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17224,11815.5,-17223,11815.5</points>
+<connection>
+<GID>58</GID>
+<name>OUT_0</name></connection>
+<intersection>-17223 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17223,11814.5,-17222,11814.5</points>
+<connection>
+<GID>60</GID>
+<name>IN_1</name></connection>
+<intersection>-17223 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>21</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17214.5,11820,-17214.5,11822</points>
+<intersection>11820 1</intersection>
+<intersection>11822 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17214.5,11820,-17213,11820</points>
+<connection>
+<GID>61</GID>
+<name>IN_0</name></connection>
+<intersection>-17214.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17216,11822,-17214.5,11822</points>
+<connection>
+<GID>59</GID>
+<name>OUT</name></connection>
+<intersection>-17214.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>22</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17214.5,11815.5,-17214.5,11818</points>
+<intersection>11815.5 2</intersection>
+<intersection>11818 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17214.5,11818,-17213,11818</points>
+<connection>
+<GID>61</GID>
+<name>IN_1</name></connection>
+<intersection>-17214.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17216,11815.5,-17214.5,11815.5</points>
+<connection>
+<GID>60</GID>
+<name>OUT</name></connection>
+<intersection>-17214.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>24</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17205.5,11818,-17205.5,11820</points>
+<intersection>11818 3</intersection>
+<intersection>11819 2</intersection>
+<intersection>11820 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17205.5,11820,-17204.5,11820</points>
+<connection>
+<GID>63</GID>
+<name>IN_0</name></connection>
+<intersection>-17205.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17207,11819,-17205.5,11819</points>
+<connection>
+<GID>61</GID>
+<name>OUT</name></connection>
+<intersection>-17205.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17205.5,11818,-17204.5,11818</points>
+<connection>
+<GID>63</GID>
+<name>IN_1</name></connection>
+<intersection>-17205.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>25</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17198.5,11819,-17197,11819</points>
+<connection>
+<GID>65</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>63</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>26</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17159.5,11874,-17147,11874</points>
+<connection>
+<GID>71</GID>
+<name>IN_0</name></connection>
+<connection>
+<GID>75</GID>
+<name>OUT_0</name></connection>
+<intersection>-17155.5 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17155.5,11870.5,-17155.5,11874</points>
+<intersection>11870.5 5</intersection>
+<intersection>11874 1</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17155.5,11870.5,-17155,11870.5</points>
+<connection>
+<GID>73</GID>
+<name>IN_0</name></connection>
+<intersection>-17155.5 4</intersection></hsegment></shape></wire>
+<wire>
+<ID>27</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17159.5,11864.5,-17147,11864.5</points>
+<connection>
+<GID>72</GID>
+<name>IN_1</name></connection>
+<connection>
+<GID>77</GID>
+<name>OUT_0</name></connection>
+<intersection>-17155.5 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17155.5,11864.5,-17155.5,11868.5</points>
+<intersection>11864.5 1</intersection>
+<intersection>11868.5 5</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17155.5,11868.5,-17155,11868.5</points>
+<connection>
+<GID>73</GID>
+<name>IN_1</name></connection>
+<intersection>-17155.5 4</intersection></hsegment></shape></wire>
+<wire>
+<ID>28</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17148,11866.5,-17148,11872</points>
+<intersection>11866.5 3</intersection>
+<intersection>11869.5 2</intersection>
+<intersection>11872 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17148,11872,-17147,11872</points>
+<connection>
+<GID>71</GID>
+<name>IN_1</name></connection>
+<intersection>-17148 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17149,11869.5,-17148,11869.5</points>
+<connection>
+<GID>73</GID>
+<name>OUT</name></connection>
+<intersection>-17148 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17148,11866.5,-17147,11866.5</points>
+<connection>
+<GID>72</GID>
+<name>IN_0</name></connection>
+<intersection>-17148 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>29</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17139.5,11870.5,-17139.5,11873</points>
+<intersection>11870.5 1</intersection>
+<intersection>11873 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17139.5,11870.5,-17138.5,11870.5</points>
+<connection>
+<GID>78</GID>
+<name>IN_0</name></connection>
+<intersection>-17139.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17141,11873,-17139.5,11873</points>
+<connection>
+<GID>71</GID>
+<name>OUT</name></connection>
+<intersection>-17139.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>30</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17139.5,11865.5,-17139.5,11868.5</points>
+<intersection>11865.5 2</intersection>
+<intersection>11868.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17139.5,11868.5,-17138.5,11868.5</points>
+<connection>
+<GID>78</GID>
+<name>IN_1</name></connection>
+<intersection>-17139.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17141,11865.5,-17139.5,11865.5</points>
+<connection>
+<GID>72</GID>
+<name>OUT</name></connection>
+<intersection>-17139.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>31</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17132.5,11869.5,-17131,11869.5</points>
+<connection>
+<GID>78</GID>
+<name>OUT</name></connection>
+<intersection>-17131 3</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>-17131,11869.5,-17131,11869.5</points>
+<connection>
+<GID>80</GID>
+<name>N_in0</name></connection>
+<intersection>11869.5 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>32</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17161.5,11840,-17148.5,11840</points>
+<connection>
+<GID>81</GID>
+<name>IN_0</name></connection>
+<connection>
+<GID>84</GID>
+<name>OUT_0</name></connection>
+<intersection>-17157 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17157,11836.5,-17157,11840</points>
+<intersection>11836.5 5</intersection>
+<intersection>11840 1</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17157,11836.5,-17156.5,11836.5</points>
+<connection>
+<GID>83</GID>
+<name>IN_0</name></connection>
+<intersection>-17157 4</intersection></hsegment></shape></wire>
+<wire>
+<ID>33</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17161.5,11830.5,-17148.5,11830.5</points>
+<connection>
+<GID>82</GID>
+<name>IN_1</name></connection>
+<connection>
+<GID>85</GID>
+<name>OUT_0</name></connection>
+<intersection>-17157 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17157,11830.5,-17157,11834.5</points>
+<intersection>11830.5 1</intersection>
+<intersection>11834.5 5</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17157,11834.5,-17156.5,11834.5</points>
+<connection>
+<GID>83</GID>
+<name>IN_1</name></connection>
+<intersection>-17157 4</intersection></hsegment></shape></wire>
+<wire>
+<ID>34</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17149.5,11832.5,-17149.5,11838</points>
+<intersection>11832.5 3</intersection>
+<intersection>11835.5 2</intersection>
+<intersection>11838 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17149.5,11838,-17148.5,11838</points>
+<connection>
+<GID>81</GID>
+<name>IN_1</name></connection>
+<intersection>-17149.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17150.5,11835.5,-17149.5,11835.5</points>
+<connection>
+<GID>83</GID>
+<name>OUT</name></connection>
+<intersection>-17149.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17149.5,11832.5,-17148.5,11832.5</points>
+<connection>
+<GID>82</GID>
+<name>IN_0</name></connection>
+<intersection>-17149.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>35</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17141,11836,-17141,11839</points>
+<intersection>11836 3</intersection>
+<intersection>11839 2</intersection></vsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17142.5,11839,-17141,11839</points>
+<connection>
+<GID>81</GID>
+<name>OUT</name></connection>
+<intersection>-17141 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17141,11836,-17140,11836</points>
+<connection>
+<GID>86</GID>
+<name>IN_0</name></connection>
+<intersection>-17141 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>36</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17141,11831.5,-17141,11834</points>
+<intersection>11831.5 2</intersection>
+<intersection>11834 3</intersection></vsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17142.5,11831.5,-17141,11831.5</points>
+<connection>
+<GID>82</GID>
+<name>OUT</name></connection>
+<intersection>-17141 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17141,11834,-17140,11834</points>
+<connection>
+<GID>86</GID>
+<name>IN_1</name></connection>
+<intersection>-17141 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>38</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17133,11834,-17133,11836</points>
+<intersection>11834 3</intersection>
+<intersection>11835 2</intersection>
+<intersection>11836 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17133,11836,-17132.5,11836</points>
+<connection>
+<GID>89</GID>
+<name>IN_0</name></connection>
+<intersection>-17133 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17134,11835,-17133,11835</points>
+<connection>
+<GID>86</GID>
+<name>OUT</name></connection>
+<intersection>-17133 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17133,11834,-17132.5,11834</points>
+<connection>
+<GID>89</GID>
+<name>IN_1</name></connection>
+<intersection>-17133 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>40</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17126.5,11835,-17125,11835</points>
+<connection>
+<GID>93</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>89</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>41</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17218.5,11786,-17218.5,11788</points>
+<intersection>11786 3</intersection>
+<intersection>11787 2</intersection>
+<intersection>11788 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17218.5,11788,-17217,11788</points>
+<connection>
+<GID>99</GID>
+<name>IN_0</name></connection>
+<intersection>-17218.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17220.5,11787,-17218.5,11787</points>
+<connection>
+<GID>113</GID>
+<name>OUT_0</name></connection>
+<intersection>-17218.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17218.5,11786,-17217,11786</points>
+<connection>
+<GID>99</GID>
+<name>IN_1</name></connection>
+<intersection>-17218.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>42</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17211,11787,-17208.5,11787</points>
+<connection>
+<GID>95</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>99</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>43</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17223,11772.5,-17221,11772.5</points>
+<connection>
+<GID>101</GID>
+<name>IN_0</name></connection>
+<intersection>-17223 3</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>-17223,11772.5,-17223,11773</points>
+<connection>
+<GID>119</GID>
+<name>OUT_0</name></connection>
+<intersection>11772.5 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>44</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17223,11770.5,-17221,11770.5</points>
+<connection>
+<GID>101</GID>
+<name>IN_1</name></connection>
+<intersection>-17223 3</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>-17223,11770,-17223,11770.5</points>
+<connection>
+<GID>121</GID>
+<name>OUT_0</name></connection>
+<intersection>11770.5 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>45</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17213.5,11770.5,-17213.5,11772.5</points>
+<intersection>11770.5 3</intersection>
+<intersection>11771.5 2</intersection>
+<intersection>11772.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17213.5,11772.5,-17212.5,11772.5</points>
+<connection>
+<GID>117</GID>
+<name>IN_0</name></connection>
+<intersection>-17213.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17215,11771.5,-17213.5,11771.5</points>
+<connection>
+<GID>101</GID>
+<name>OUT</name></connection>
+<intersection>-17213.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17213.5,11770.5,-17212.5,11770.5</points>
+<connection>
+<GID>117</GID>
+<name>IN_1</name></connection>
+<intersection>-17213.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>46</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17206.5,11771.5,-17205,11771.5</points>
+<connection>
+<GID>117</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>123</GID>
+<name>N_in0</name></connection></hsegment></shape></wire>
+<wire>
+<ID>47</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17222,11754.5,-17222,11756.5</points>
+<intersection>11754.5 3</intersection>
+<intersection>11755.5 2</intersection>
+<intersection>11756.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17222,11756.5,-17220.5,11756.5</points>
+<connection>
+<GID>125</GID>
+<name>IN_0</name></connection>
+<intersection>-17222 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17223,11755.5,-17222,11755.5</points>
+<connection>
+<GID>133</GID>
+<name>OUT_0</name></connection>
+<intersection>-17222 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17222,11754.5,-17220.5,11754.5</points>
+<connection>
+<GID>125</GID>
+<name>IN_1</name></connection>
+<intersection>-17222 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>48</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17221.5,11747.5,-17221.5,11749.5</points>
+<intersection>11747.5 3</intersection>
+<intersection>11748.5 2</intersection>
+<intersection>11749.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17221.5,11749.5,-17220.5,11749.5</points>
+<connection>
+<GID>127</GID>
+<name>IN_0</name></connection>
+<intersection>-17221.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17223,11748.5,-17221.5,11748.5</points>
+<connection>
+<GID>135</GID>
+<name>OUT_0</name></connection>
+<intersection>-17221.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17221.5,11747.5,-17220.5,11747.5</points>
+<connection>
+<GID>127</GID>
+<name>IN_1</name></connection>
+<intersection>-17221.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>49</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17212.5,11752.5,-17212.5,11755.5</points>
+<intersection>11752.5 1</intersection>
+<intersection>11755.5 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17212.5,11752.5,-17211,11752.5</points>
+<connection>
+<GID>129</GID>
+<name>IN_0</name></connection>
+<intersection>-17212.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17214.5,11755.5,-17212.5,11755.5</points>
+<connection>
+<GID>125</GID>
+<name>OUT</name></connection>
+<intersection>-17212.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>50</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17212.5,11748.5,-17212.5,11750.5</points>
+<intersection>11748.5 2</intersection>
+<intersection>11750.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17212.5,11750.5,-17211,11750.5</points>
+<connection>
+<GID>129</GID>
+<name>IN_1</name></connection>
+<intersection>-17212.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17214.5,11748.5,-17212.5,11748.5</points>
+<connection>
+<GID>127</GID>
+<name>OUT</name></connection>
+<intersection>-17212.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>51</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17205,11751.5,-17203,11751.5</points>
+<connection>
+<GID>131</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>129</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>52</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17227,11733.5,-17227,11735.5</points>
+<intersection>11733.5 3</intersection>
+<intersection>11734.5 2</intersection>
+<intersection>11735.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17227,11735.5,-17225.5,11735.5</points>
+<connection>
+<GID>136</GID>
+<name>IN_0</name></connection>
+<intersection>-17227 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17228,11734.5,-17227,11734.5</points>
+<connection>
+<GID>140</GID>
+<name>OUT_0</name></connection>
+<intersection>-17227 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17227,11733.5,-17225.5,11733.5</points>
+<connection>
+<GID>136</GID>
+<name>IN_1</name></connection>
+<intersection>-17227 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>53</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17226.5,11726.5,-17226.5,11728.5</points>
+<intersection>11726.5 3</intersection>
+<intersection>11727.5 2</intersection>
+<intersection>11728.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17226.5,11728.5,-17225.5,11728.5</points>
+<connection>
+<GID>137</GID>
+<name>IN_0</name></connection>
+<intersection>-17226.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17228,11727.5,-17226.5,11727.5</points>
+<connection>
+<GID>141</GID>
+<name>OUT_0</name></connection>
+<intersection>-17226.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17226.5,11726.5,-17225.5,11726.5</points>
+<connection>
+<GID>137</GID>
+<name>IN_1</name></connection>
+<intersection>-17226.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>54</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17217.5,11731.5,-17217.5,11734.5</points>
+<intersection>11731.5 1</intersection>
+<intersection>11734.5 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17217.5,11731.5,-17216,11731.5</points>
+<connection>
+<GID>138</GID>
+<name>IN_0</name></connection>
+<intersection>-17217.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17219.5,11734.5,-17217.5,11734.5</points>
+<connection>
+<GID>136</GID>
+<name>OUT</name></connection>
+<intersection>-17217.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>55</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17217.5,11727.5,-17217.5,11729.5</points>
+<intersection>11727.5 2</intersection>
+<intersection>11729.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17217.5,11729.5,-17216,11729.5</points>
+<connection>
+<GID>138</GID>
+<name>IN_1</name></connection>
+<intersection>-17217.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17219.5,11727.5,-17217.5,11727.5</points>
+<connection>
+<GID>137</GID>
+<name>OUT</name></connection>
+<intersection>-17217.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>57</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17209,11729.5,-17209,11731.5</points>
+<intersection>11729.5 3</intersection>
+<intersection>11730.5 2</intersection>
+<intersection>11731.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17209,11731.5,-17207.5,11731.5</points>
+<connection>
+<GID>143</GID>
+<name>IN_0</name></connection>
+<intersection>-17209 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17210,11730.5,-17209,11730.5</points>
+<connection>
+<GID>138</GID>
+<name>OUT</name></connection>
+<intersection>-17209 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17209,11729.5,-17207.5,11729.5</points>
+<connection>
+<GID>143</GID>
+<name>IN_1</name></connection>
+<intersection>-17209 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>58</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17201.5,11730.5,-17200,11730.5</points>
+<connection>
+<GID>145</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>143</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>59</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17151,11786,-17138.5,11786</points>
+<connection>
+<GID>151</GID>
+<name>OUT_0</name></connection>
+<connection>
+<GID>148</GID>
+<name>IN_0</name></connection>
+<intersection>-17147 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17147,11782.5,-17147,11786</points>
+<intersection>11782.5 5</intersection>
+<intersection>11786 1</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17147,11782.5,-17146.5,11782.5</points>
+<connection>
+<GID>150</GID>
+<name>IN_0</name></connection>
+<intersection>-17147 4</intersection></hsegment></shape></wire>
+<wire>
+<ID>60</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17151,11776.5,-17138.5,11776.5</points>
+<connection>
+<GID>152</GID>
+<name>OUT_0</name></connection>
+<connection>
+<GID>149</GID>
+<name>IN_1</name></connection>
+<intersection>-17147 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17147,11776.5,-17147,11780.5</points>
+<intersection>11776.5 1</intersection>
+<intersection>11780.5 5</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17147,11780.5,-17146.5,11780.5</points>
+<connection>
+<GID>150</GID>
+<name>IN_1</name></connection>
+<intersection>-17147 4</intersection></hsegment></shape></wire>
+<wire>
+<ID>61</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17139.5,11778.5,-17139.5,11784</points>
+<intersection>11778.5 3</intersection>
+<intersection>11781.5 2</intersection>
+<intersection>11784 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17139.5,11784,-17138.5,11784</points>
+<connection>
+<GID>148</GID>
+<name>IN_1</name></connection>
+<intersection>-17139.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17140.5,11781.5,-17139.5,11781.5</points>
+<connection>
+<GID>150</GID>
+<name>OUT</name></connection>
+<intersection>-17139.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17139.5,11778.5,-17138.5,11778.5</points>
+<connection>
+<GID>149</GID>
+<name>IN_0</name></connection>
+<intersection>-17139.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>62</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17131,11782.5,-17131,11785</points>
+<intersection>11782.5 1</intersection>
+<intersection>11785 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17131,11782.5,-17130,11782.5</points>
+<connection>
+<GID>153</GID>
+<name>IN_0</name></connection>
+<intersection>-17131 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17132.5,11785,-17131,11785</points>
+<connection>
+<GID>148</GID>
+<name>OUT</name></connection>
+<intersection>-17131 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>63</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17131,11777.5,-17131,11780.5</points>
+<intersection>11777.5 2</intersection>
+<intersection>11780.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17131,11780.5,-17130,11780.5</points>
+<connection>
+<GID>153</GID>
+<name>IN_1</name></connection>
+<intersection>-17131 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17132.5,11777.5,-17131,11777.5</points>
+<connection>
+<GID>149</GID>
+<name>OUT</name></connection>
+<intersection>-17131 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>64</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17124,11781.5,-17122.5,11781.5</points>
+<connection>
+<GID>154</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>153</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>71</ID>
+<shape>
+<hsegment>
+<ID>2</ID>
+<points>-17155.5,11752.5,-17143,11752.5</points>
+<connection>
+<GID>158</GID>
+<name>OUT_0</name></connection>
+<connection>
+<GID>165</GID>
+<name>IN_0</name></connection>
+<intersection>-17152 5</intersection></hsegment>
+<vsegment>
+<ID>5</ID>
+<points>-17152,11749,-17152,11752.5</points>
+<connection>
+<GID>163</GID>
+<name>IN_0</name></connection>
+<intersection>11752.5 2</intersection></vsegment></shape></wire>
+<wire>
+<ID>72</ID>
+<shape>
+<hsegment>
+<ID>2</ID>
+<points>-17155.5,11743,-17142.5,11743</points>
+<connection>
+<GID>159</GID>
+<name>OUT_0</name></connection>
+<connection>
+<GID>167</GID>
+<name>IN_1</name></connection>
+<intersection>-17152 5</intersection></hsegment>
+<vsegment>
+<ID>5</ID>
+<points>-17152,11743,-17152,11747</points>
+<connection>
+<GID>163</GID>
+<name>IN_1</name></connection>
+<intersection>11743 2</intersection></vsegment></shape></wire>
+<wire>
+<ID>73</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17144.5,11745,-17144.5,11750.5</points>
+<intersection>11745 5</intersection>
+<intersection>11748 4</intersection>
+<intersection>11750.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17144.5,11750.5,-17143,11750.5</points>
+<connection>
+<GID>165</GID>
+<name>IN_1</name></connection>
+<intersection>-17144.5 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17146,11748,-17144.5,11748</points>
+<connection>
+<GID>163</GID>
+<name>OUT</name></connection>
+<intersection>-17144.5 0</intersection></hsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17144.5,11745,-17142.5,11745</points>
+<connection>
+<GID>167</GID>
+<name>IN_0</name></connection>
+<intersection>-17144.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>74</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17136,11749,-17136,11751.5</points>
+<intersection>11749 1</intersection>
+<intersection>11751.5 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17136,11749,-17135.5,11749</points>
+<connection>
+<GID>169</GID>
+<name>IN_0</name></connection>
+<intersection>-17136 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17137,11751.5,-17136,11751.5</points>
+<connection>
+<GID>165</GID>
+<name>OUT</name></connection>
+<intersection>-17136 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>75</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17136,11744,-17136,11747</points>
+<intersection>11744 2</intersection>
+<intersection>11747 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17136,11747,-17135.5,11747</points>
+<connection>
+<GID>169</GID>
+<name>IN_1</name></connection>
+<intersection>-17136 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17136.5,11744,-17136,11744</points>
+<connection>
+<GID>167</GID>
+<name>OUT</name></connection>
+<intersection>-17136 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>76</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17129.5,11748,-17127,11748</points>
+<connection>
+<GID>161</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>169</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>77</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17176,11703.5,-17172.5,11703.5</points>
+<connection>
+<GID>175</GID>
+<name>IN_0</name></connection>
+<intersection>-17176 3</intersection>
+<intersection>-17173.5 4</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>-17176,11703.5,-17176,11705</points>
+<intersection>11703.5 1</intersection>
+<intersection>11705 5</intersection></vsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17173.5,11695.5,-17173.5,11703.5</points>
+<intersection>11695.5 6</intersection>
+<intersection>11703.5 1</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17178,11705,-17176,11705</points>
+<connection>
+<GID>177</GID>
+<name>OUT_0</name></connection>
+<intersection>-17176 3</intersection></hsegment>
+<hsegment>
+<ID>6</ID>
+<points>-17173.5,11695.5,-17172.5,11695.5</points>
+<connection>
+<GID>191</GID>
+<name>IN_0</name></connection>
+<intersection>-17173.5 4</intersection></hsegment></shape></wire>
+<wire>
+<ID>78</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17176,11693.5,-17176,11701.5</points>
+<intersection>11693.5 3</intersection>
+<intersection>11700 2</intersection>
+<intersection>11701.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17176,11701.5,-17172.5,11701.5</points>
+<connection>
+<GID>175</GID>
+<name>IN_1</name></connection>
+<intersection>-17176 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17178,11700,-17176,11700</points>
+<connection>
+<GID>179</GID>
+<name>OUT_0</name></connection>
+<intersection>-17176 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17176,11693.5,-17172.5,11693.5</points>
+<connection>
+<GID>191</GID>
+<name>IN_1</name></connection>
+<intersection>-17176 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>79</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17166.5,11702.5,-17163.5,11702.5</points>
+<connection>
+<GID>181</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>175</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>80</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17166.5,11694.5,-17163,11694.5</points>
+<connection>
+<GID>193</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>191</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>81</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17182,11668.5,-17170.5,11668.5</points>
+<connection>
+<GID>211</GID>
+<name>IN_0</name></connection>
+<intersection>-17182 3</intersection>
+<intersection>-17170.5 5</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>-17182,11667,-17182,11668.5</points>
+<intersection>11667 4</intersection>
+<intersection>11668.5 1</intersection></vsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17182.5,11667,-17182,11667</points>
+<connection>
+<GID>195</GID>
+<name>OUT_0</name></connection>
+<intersection>-17182 3</intersection></hsegment>
+<vsegment>
+<ID>5</ID>
+<points>-17170.5,11657.5,-17170.5,11668.5</points>
+<connection>
+<GID>217</GID>
+<name>IN_0</name></connection>
+<intersection>11668.5 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>82</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17182,11654,-17180.5,11654</points>
+<connection>
+<GID>213</GID>
+<name>IN_0</name></connection>
+<intersection>-17182 6</intersection></hsegment>
+<vsegment>
+<ID>6</ID>
+<points>-17182,11654,-17182,11656</points>
+<connection>
+<GID>197</GID>
+<name>OUT_0</name></connection>
+<intersection>11654 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>84</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17176.5,11654,-17170.5,11654</points>
+<connection>
+<GID>213</GID>
+<name>OUT_0</name></connection>
+<intersection>-17170.5 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17170.5,11654,-17170.5,11655.5</points>
+<connection>
+<GID>217</GID>
+<name>IN_1</name></connection>
+<intersection>11654 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>86</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17176.5,11668.5,-17170.5,11668.5</points>
+<connection>
+<GID>211</GID>
+<name>OUT_0</name></connection>
+<intersection>-17170.5 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17170.5,11667,-17170.5,11668.5</points>
+<connection>
+<GID>229</GID>
+<name>IN_0</name></connection>
+<intersection>11668.5 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>88</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17143,11609.5,-17143,11611.5</points>
+<intersection>11609.5 3</intersection>
+<intersection>11610.5 4</intersection>
+<intersection>11611.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17143,11611.5,-17141.5,11611.5</points>
+<connection>
+<GID>255</GID>
+<name>IN_0</name></connection>
+<intersection>-17143 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17143,11609.5,-17141.5,11609.5</points>
+<connection>
+<GID>255</GID>
+<name>IN_1</name></connection>
+<intersection>-17143 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17146,11610.5,-17143,11610.5</points>
+<connection>
+<GID>263</GID>
+<name>OUT</name></connection>
+<intersection>-17143 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>89</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17153,11611.5,-17153,11615.5</points>
+<intersection>11611.5 1</intersection>
+<intersection>11615.5 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17153,11611.5,-17152,11611.5</points>
+<connection>
+<GID>263</GID>
+<name>IN_0</name></connection>
+<intersection>-17153 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17155,11615.5,-17153,11615.5</points>
+<connection>
+<GID>247</GID>
+<name>OUT</name></connection>
+<intersection>-17153 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>90</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17153,11606.5,-17153,11609.5</points>
+<intersection>11606.5 2</intersection>
+<intersection>11609.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17153,11609.5,-17152,11609.5</points>
+<connection>
+<GID>263</GID>
+<name>IN_1</name></connection>
+<intersection>-17153 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17155,11606.5,-17153,11606.5</points>
+<connection>
+<GID>259</GID>
+<name>OUT</name></connection>
+<intersection>-17153 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>95</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17187.5,11616.5,-17187.5,11621</points>
+<connection>
+<GID>241</GID>
+<name>OUT</name></connection>
+<intersection>11616.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17187.5,11616.5,-17161,11616.5</points>
+<connection>
+<GID>247</GID>
+<name>IN_0</name></connection>
+<intersection>-17187.5 0</intersection>
+<intersection>-17180.5 2</intersection></hsegment>
+<vsegment>
+<ID>2</ID>
+<points>-17180.5,11598.5,-17180.5,11616.5</points>
+<intersection>11598.5 3</intersection>
+<intersection>11616.5 1</intersection></vsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17180.5,11598.5,-17160.5,11598.5</points>
+<connection>
+<GID>251</GID>
+<name>IN_0</name></connection>
+<intersection>-17180.5 2</intersection></hsegment></shape></wire>
+<wire>
+<ID>96</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17175,11614.5,-17175,11629</points>
+<connection>
+<GID>239</GID>
+<name>OUT_0</name></connection>
+<intersection>11614.5 1</intersection>
+<intersection>11627 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17175,11614.5,-17161,11614.5</points>
+<connection>
+<GID>247</GID>
+<name>IN_1</name></connection>
+<intersection>-17175 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17175,11627,-17166.5,11627</points>
+<connection>
+<GID>245</GID>
+<name>IN_0</name></connection>
+<connection>
+<GID>245</GID>
+<name>IN_1</name></connection>
+<intersection>-17175 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>97</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17167.5,11605.5,-17167.5,11621</points>
+<connection>
+<GID>245</GID>
+<name>OUT</name></connection>
+<intersection>11605.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17167.5,11605.5,-17161,11605.5</points>
+<connection>
+<GID>259</GID>
+<name>IN_1</name></connection>
+<intersection>-17167.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>98</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17193.5,11596.5,-17193.5,11629</points>
+<connection>
+<GID>237</GID>
+<name>OUT_0</name></connection>
+<intersection>11596.5 1</intersection>
+<intersection>11627 4</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17193.5,11596.5,-17160.5,11596.5</points>
+<connection>
+<GID>251</GID>
+<name>IN_1</name></connection>
+<intersection>-17193.5 0</intersection>
+<intersection>-17164.5 2</intersection></hsegment>
+<vsegment>
+<ID>2</ID>
+<points>-17164.5,11596.5,-17164.5,11607.5</points>
+<intersection>11596.5 1</intersection>
+<intersection>11607.5 3</intersection></vsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17164.5,11607.5,-17161,11607.5</points>
+<connection>
+<GID>259</GID>
+<name>IN_0</name></connection>
+<intersection>-17164.5 2</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17193.5,11627,-17186.5,11627</points>
+<connection>
+<GID>241</GID>
+<name>IN_0</name></connection>
+<connection>
+<GID>241</GID>
+<name>IN_1</name></connection>
+<intersection>-17193.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>99</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17135.5,11610.5,-17132.5,11610.5</points>
+<connection>
+<GID>257</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>255</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>117</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17178,11558.5,-17178,11566.5</points>
+<intersection>11558.5 3</intersection>
+<intersection>11565 2</intersection>
+<intersection>11566.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17178,11566.5,-17174.5,11566.5</points>
+<connection>
+<GID>293</GID>
+<name>IN_1</name></connection>
+<intersection>-17178 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17180,11565,-17178,11565</points>
+<connection>
+<GID>295</GID>
+<name>OUT_0</name></connection>
+<intersection>-17178 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17178,11558.5,-17168.5,11558.5</points>
+<connection>
+<GID>301</GID>
+<name>IN_1</name></connection>
+<intersection>-17178 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>118</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17168.5,11567.5,-17158.5,11567.5</points>
+<connection>
+<GID>293</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>296</GID>
+<name>N_in0</name></connection></hsegment></shape></wire>
+<wire>
+<ID>120</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17162.5,11559.5,-17158,11559.5</points>
+<connection>
+<GID>290</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>301</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>121</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17169.5,11560.5,-17168.5,11560.5</points>
+<connection>
+<GID>301</GID>
+<name>IN_0</name></connection>
+<connection>
+<GID>303</GID>
+<name>OUT_0</name></connection></hsegment></shape></wire>
+<wire>
+<ID>122</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17176.5,11560.5,-17176.5,11570</points>
+<intersection>11560.5 1</intersection>
+<intersection>11568.5 2</intersection>
+<intersection>11570 4</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17176.5,11560.5,-17173.5,11560.5</points>
+<connection>
+<GID>303</GID>
+<name>IN_0</name></connection>
+<intersection>-17176.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17176.5,11568.5,-17174.5,11568.5</points>
+<connection>
+<GID>293</GID>
+<name>IN_0</name></connection>
+<intersection>-17176.5 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17180,11570,-17176.5,11570</points>
+<connection>
+<GID>294</GID>
+<name>OUT_0</name></connection>
+<intersection>-17176.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>125</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17192,11511.5,-17192,11537</points>
+<connection>
+<GID>311</GID>
+<name>OUT_0</name></connection>
+<intersection>11511.5 3</intersection>
+<intersection>11521.5 1</intersection>
+<intersection>11536 4</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17192,11521.5,-17164.5,11521.5</points>
+<connection>
+<GID>321</GID>
+<name>IN_0</name></connection>
+<intersection>-17192 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17192,11511.5,-17164,11511.5</points>
+<connection>
+<GID>323</GID>
+<name>IN_1</name></connection>
+<intersection>-17192 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17192,11536,-17188.5,11536</points>
+<connection>
+<GID>315</GID>
+<name>IN_0</name></connection>
+<intersection>-17192 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>126</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17178,11513.5,-17178,11537</points>
+<connection>
+<GID>313</GID>
+<name>OUT_0</name></connection>
+<intersection>11513.5 3</intersection>
+<intersection>11526.5 1</intersection>
+<intersection>11536 4</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17178,11526.5,-17164.5,11526.5</points>
+<connection>
+<GID>319</GID>
+<name>IN_1</name></connection>
+<intersection>-17178 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17178,11513.5,-17164,11513.5</points>
+<connection>
+<GID>323</GID>
+<name>IN_0</name></connection>
+<intersection>-17178 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17178,11536,-17174.5,11536</points>
+<connection>
+<GID>317</GID>
+<name>IN_0</name></connection>
+<intersection>-17178 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>127</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17174.5,11519.5,-17174.5,11532</points>
+<connection>
+<GID>317</GID>
+<name>OUT_0</name></connection>
+<intersection>11519.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17174.5,11519.5,-17164.5,11519.5</points>
+<connection>
+<GID>321</GID>
+<name>IN_1</name></connection>
+<intersection>-17174.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>128</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17188.5,11528.5,-17188.5,11532</points>
+<connection>
+<GID>315</GID>
+<name>OUT_0</name></connection>
+<intersection>11528.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17188.5,11528.5,-17164.5,11528.5</points>
+<connection>
+<GID>319</GID>
+<name>IN_0</name></connection>
+<intersection>-17188.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>129</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17156,11525,-17156,11527.5</points>
+<intersection>11525 1</intersection>
+<intersection>11527.5 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17156,11525,-17154,11525</points>
+<connection>
+<GID>325</GID>
+<name>IN_0</name></connection>
+<intersection>-17156 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17158.5,11527.5,-17156,11527.5</points>
+<connection>
+<GID>319</GID>
+<name>OUT</name></connection>
+<intersection>-17156 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>130</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17156,11520.5,-17156,11523</points>
+<intersection>11520.5 2</intersection>
+<intersection>11523 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17156,11523,-17154,11523</points>
+<connection>
+<GID>325</GID>
+<name>IN_1</name></connection>
+<intersection>-17156 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17158.5,11520.5,-17156,11520.5</points>
+<connection>
+<GID>321</GID>
+<name>OUT</name></connection>
+<intersection>-17156 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>131</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17148,11524,-17146,11524</points>
+<connection>
+<GID>325</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>327</GID>
+<name>N_in0</name></connection></hsegment></shape></wire>
+<wire>
+<ID>132</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17158,11512.5,-17154.5,11512.5</points>
+<connection>
+<GID>323</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>329</GID>
+<name>N_in0</name></connection>
+<intersection>-17154.5 6</intersection></hsegment>
+<vsegment>
+<ID>6</ID>
+<points>-17154.5,11511.5,-17154.5,11513.5</points>
+<connection>
+<GID>329</GID>
+<name>N_in2</name></connection>
+<connection>
+<GID>329</GID>
+<name>N_in3</name></connection>
+<intersection>11512.5 1</intersection></vsegment></shape></wire>
+<wire>
+<ID>133</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17139.5,11466,-17139.5,11468</points>
+<intersection>11466 3</intersection>
+<intersection>11467 4</intersection>
+<intersection>11468 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17139.5,11468,-17138,11468</points>
+<connection>
+<GID>338</GID>
+<name>IN_0</name></connection>
+<intersection>-17139.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17139.5,11466,-17138,11466</points>
+<connection>
+<GID>338</GID>
+<name>IN_1</name></connection>
+<intersection>-17139.5 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17142.5,11467,-17139.5,11467</points>
+<connection>
+<GID>341</GID>
+<name>OUT</name></connection>
+<intersection>-17139.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>134</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17149.5,11468,-17149.5,11472</points>
+<intersection>11468 1</intersection>
+<intersection>11472 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17149.5,11468,-17148.5,11468</points>
+<connection>
+<GID>341</GID>
+<name>IN_0</name></connection>
+<intersection>-17149.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17151.5,11472,-17149.5,11472</points>
+<connection>
+<GID>336</GID>
+<name>OUT</name></connection>
+<intersection>-17149.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>135</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17149.5,11463,-17149.5,11466</points>
+<intersection>11463 2</intersection>
+<intersection>11466 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17149.5,11466,-17148.5,11466</points>
+<connection>
+<GID>341</GID>
+<name>IN_1</name></connection>
+<intersection>-17149.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17151.5,11463,-17149.5,11463</points>
+<connection>
+<GID>340</GID>
+<name>OUT</name></connection>
+<intersection>-17149.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>140</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>-17132,11467,-17129,11467</points>
+<connection>
+<GID>339</GID>
+<name>N_in0</name></connection>
+<connection>
+<GID>338</GID>
+<name>OUT</name></connection></hsegment></shape></wire>
+<wire>
+<ID>141</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17190,11473,-17190,11485.5</points>
+<connection>
+<GID>332</GID>
+<name>OUT_0</name></connection>
+<intersection>11473 1</intersection>
+<intersection>11484.5 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17190,11473,-17157.5,11473</points>
+<connection>
+<GID>336</GID>
+<name>IN_0</name></connection>
+<intersection>-17190 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17190,11484.5,-17183,11484.5</points>
+<intersection>-17190 0</intersection>
+<intersection>-17185 5</intersection>
+<intersection>-17183 4</intersection></hsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17183,11483.5,-17183,11484.5</points>
+<connection>
+<GID>334</GID>
+<name>IN_0</name></connection>
+<intersection>11484.5 2</intersection></vsegment>
+<vsegment>
+<ID>5</ID>
+<points>-17185,11483.5,-17185,11484.5</points>
+<connection>
+<GID>334</GID>
+<name>IN_1</name></connection>
+<intersection>11484.5 2</intersection></vsegment></shape></wire>
+<wire>
+<ID>142</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17171,11453,-17171,11485.5</points>
+<connection>
+<GID>333</GID>
+<name>OUT_0</name></connection>
+<intersection>11453 3</intersection>
+<intersection>11462 1</intersection>
+<intersection>11484 4</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17171,11462,-17157.5,11462</points>
+<connection>
+<GID>340</GID>
+<name>IN_1</name></connection>
+<intersection>-17171 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17171,11453,-17157,11453</points>
+<connection>
+<GID>337</GID>
+<name>IN_1</name></connection>
+<intersection>-17171 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>-17171,11484,-17163,11484</points>
+<intersection>-17171 0</intersection>
+<intersection>-17165 7</intersection>
+<intersection>-17163 6</intersection></hsegment>
+<vsegment>
+<ID>6</ID>
+<points>-17163,11483.5,-17163,11484</points>
+<connection>
+<GID>335</GID>
+<name>IN_0</name></connection>
+<intersection>11484 4</intersection></vsegment>
+<vsegment>
+<ID>7</ID>
+<points>-17165,11483.5,-17165,11484</points>
+<connection>
+<GID>335</GID>
+<name>IN_1</name></connection>
+<intersection>11484 4</intersection></vsegment></shape></wire>
+<wire>
+<ID>143</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17164,11471,-17164,11477.5</points>
+<connection>
+<GID>335</GID>
+<name>OUT</name></connection>
+<intersection>11471 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17164,11471,-17157.5,11471</points>
+<connection>
+<GID>336</GID>
+<name>IN_1</name></connection>
+<intersection>-17164 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>144</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17184,11455,-17184,11477.5</points>
+<connection>
+<GID>334</GID>
+<name>OUT</name></connection>
+<intersection>11455 3</intersection>
+<intersection>11464 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17184,11464,-17157.5,11464</points>
+<connection>
+<GID>340</GID>
+<name>IN_0</name></connection>
+<intersection>-17184 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>-17184,11455,-17157,11455</points>
+<connection>
+<GID>337</GID>
+<name>IN_0</name></connection>
+<intersection>-17184 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>145</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>-17146.5,11453,-17146.5,11454</points>
+<intersection>11453 2</intersection>
+<intersection>11454 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>-17151,11454,-17146.5,11454</points>
+<connection>
+<GID>337</GID>
+<name>OUT</name></connection>
+<intersection>-17147.5 3</intersection>
+<intersection>-17146.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>-17146.5,11453,-17145.5,11453</points>
+<intersection>-17146.5 0</intersection>
+<intersection>-17145.5 4</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>-17147.5,11454,-17147.5,11458</points>
+<connection>
+<GID>349</GID>
+<name>N_in0</name></connection>
+<intersection>11454 1</intersection>
+<intersection>11458 5</intersection></vsegment>
+<vsegment>
+<ID>4</ID>
+<points>-17145.5,11453,-17145.5,11454.5</points>
+<connection>
+<GID>349</GID>
+<name>N_in1</name></connection>
+<intersection>11453 2</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>-17147.5,11458,-17146.5,11458</points>
+<intersection>-17147.5 3</intersection>
+<intersection>-17146.5 6</intersection></hsegment>
+<vsegment>
+<ID>6</ID>
+<points>-17146.5,11455.5,-17146.5,11458</points>
+<connection>
+<GID>349</GID>
+<name>N_in3</name></connection>
+<intersection>11458 5</intersection></vsegment></shape></wire></page 0>
+<page 1>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 1>
+<page 2>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 2>
+<page 3>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 3>
+<page 4>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 4>
+<page 5>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 5>
+<page 6>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 6>
+<page 7>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 7>
+<page 8>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 8>
+<page 9>
+<PageViewport>0,0,145.8,-73.7</PageViewport></page 9></circuit>
